@@ -1,0 +1,5 @@
+  const result = Math.abs(n).toString()
+  .split('')
+  .reduce((acc, cur) => acc += +cur, 0)
+
+  return result < 10 ? result : sumReducer(result)

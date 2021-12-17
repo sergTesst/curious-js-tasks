@@ -1,0 +1,19 @@
+{
+  "name": "array_manipulation_tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive './src/**/*test.js' "
+  },
+  "keywords": [
+    "running",
+    "js"
+  ],
+  "author": "serhii",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^9.1.3",
+    "sinon": "^12.0.1"
+  }
+}
